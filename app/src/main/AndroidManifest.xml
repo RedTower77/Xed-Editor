@@ -97,6 +97,9 @@
         <activity
             android:name="com.rk.runner.runners.web.WebActivity"
             android:exported="false" />
+        <activity 
+            android:name=".PdfViewerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name="com.rk.activities.terminal.Terminal"
             android:exported="true"
