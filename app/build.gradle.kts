@@ -112,6 +112,8 @@ dependencies {
     implementation(libs.androidx.profileinstaller)
     coreLibraryDesugaring(libs.desugar.jdk.libs)
 
+    implementation("com.github.barteksc:android-pdf-viewer:2.8.2")
+
     "baselineProfile"(project(":baselineprofile"))
     implementation(project(":core:main"))
 }
